@@ -1,0 +1,10 @@
+
+*.xcworkspacedata
+
+.DS_Store
+
+*.xcuserstate
+
+*.xcscheme
+
+calculator.xcodeproj/xcuserdata/rscohn1.xcuserdatad/xcschemes/xcschememanagement.plist
