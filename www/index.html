@@ -24,10 +24,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name = "format-detection" content = "telephone=no"/>
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
+       <!-- <link rel="stylesheet" type="text/css" href="css/index.css" />
+        -->
         <title>Hello Cordova</title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
+	    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	    <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
     </head>
     <body>
+        <!-- Original phonegap container
         <div class="app">
             <h1>Apache Cordova™</h1>
             <div id="deviceready">
@@ -35,6 +40,21 @@
                 <p class="status complete blink hide">Device is Ready</p>
             </div>
         </div>
+        -->
+        
+        <div data-role="page">
+
+	       <div data-role="header">
+		      <h1>My Title and more or</h1>
+	       </div><!-- /header -->
+
+	       <div data-role="content">	
+		      <p>Hello world</p>		
+	       </div><!-- /content -->
+
+        </div><!-- /page -->
+        
+        
         <script type="text/javascript" src="cordova-2.0.0.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
